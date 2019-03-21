@@ -14,9 +14,7 @@ while bye_count < 3
 
     if response == 'BYE'
         bye_count = bye_count + 1
-        puts bye_count.to_s
     else
         bye_count = 0
-        puts bye_count.to_s
     end
 end
