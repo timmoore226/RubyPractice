@@ -1,15 +1,13 @@
 lineWidth = 50
 counter = 0
 contents = [
-    'Table of Contents',
     'Chapter 1:  Numbers', 'page 1',
     'Chapter 2:  Letters', 'page 72',
     'Chapter 3:  Variables', 'page 118',
     'Chapter 4:  Arrays', 'page 190'
 ]
 
-puts contents[counter].center(lineWidth)
-counter += 1
+puts 'Table of Contents'.center(lineWidth)
 puts
 
 while counter < contents.length
